@@ -11,4 +11,4 @@ with open(r'config/ssl/backend/keystoresecret', 'w') as f:
     f.write(''.join(SystemRandom().choice(string.ascii_lowercase + string.ascii_uppercase + string.digits) for _ in range(32)))
 
 call(['docker', 'build', '--rm', '-t', 'cybercom/openssl', 'config/ssl/openssl/'])
-#call(['run/genSSLKeys'])
+call(['run/genSSLKeys'])
