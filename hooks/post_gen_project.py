@@ -2,8 +2,8 @@ import string
 from subprocess import call
 from random import SystemRandom
 
-call(['git', 'clone', 'https://github.com/Changggg/cybercom-portal', 'data/static/portal'])
-call(['git', 'clone', 'https://github.com/Changggg/cybercom-api', 'api_code']) # -v /api /usr/
+call(['git', 'clone', 'https://github.com/Changggg/ecopad_portal', 'data/static/portal'])
+call(['git', 'clone', 'https://github.com/Changggg/ecopad_api', 'api_code']) # -v /api /usr/
 
 
 # Generate secrets on creation
